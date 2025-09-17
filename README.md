@@ -1,2 +1,2 @@
 # PythonJourney-12Weeks
-A dedicated repository for the 12-week Python programming course, including weekly assignments, mini-projects, and resources. Designed to build a strong foundation in Python and prepare for Data Science and AI. Provided by Nepathya Collage
+A dedicated repository for the 12-week Python programming course, including weekly assignments, mini-projects, and resources. Designed to build a strong foundation in Python and prepare for Data Science and AI. Provided by Nepathya Collage.
