@@ -5,6 +5,11 @@ char = 'A'
 float = 7.2
 boolean = True # or False 
 
+# String :
+text = "Python"
+print(text[0])  # P
+print(text[-1]) # n (last character)
+
 
 # ---- Variables: ----
 # variables are the containers which stores values like 'a = 20' here a is variable which stores value 20.
