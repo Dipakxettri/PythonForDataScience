@@ -8,6 +8,7 @@ A dedicated repository for the 12-week Python programming course, including week
 3. Data Types
 4. Conditionals(if,elif,else)
 5. Loops(for,While)
+6. Exception Handling
 
 ## Week-3-4 Intermediate :
 **Topics:**
@@ -16,5 +17,5 @@ A dedicated repository for the 12-week Python programming course, including week
 3. Tuple
 4. Dictonary
 5. String formating
-6. File I/O(basic file handeling, Handeling ssv files, os module)
+6. File I/O(basic file handeling, Handeling csv files, os module)
 
