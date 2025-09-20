@@ -15,7 +15,7 @@ tupp = tuple(list)
 
 
 # ---------- Q3. What happens if you try to change a value in a tuple? Show with code. --------------
+# tuplee = (1,2,3,4)
+# tuplee[0] = 100
 # Ans : Throw Errors
-tuplee = (1,2,3,4)
-tuplee[0] = 100
 # Error Output : TypeError: 'tuple' object does not support item assignment
