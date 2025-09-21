@@ -76,6 +76,12 @@ print("Current Working Directory:", os.getcwd())
 # os.remove("test.txt")
 
 
+# ---- Difference: ----	
+# The readline() -> function reads from a file in read mode and returns the next line in the file or a blank string if there are no more lines.
+# 	The readlines() -> function, also reads from a file in read mode and returns a list of all lines in the file.
+# The returned data is of string type.	The returned data is of list type.
+
+
 # ---- Practice: ----
 # 1. Printing text
 # with open("practice.txt", "w") as practice:
