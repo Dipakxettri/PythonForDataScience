@@ -9,7 +9,6 @@ import csv
 
     #print(csv_reader)# returns a object we so we have to inerate throw it
 
-
     # ---- Write a conect of exesting csv file into another file with: ----
 
     # with open("/home/sereynn/GitRepoes/PythonJourney-12Weeks/Week-2-3_Intermediate/Learnings/FileHandelingIOPy/new_students.csv","w") as file2:
@@ -25,9 +24,3 @@ with open("/home/sereynn/GitRepoes/PythonJourney-12Weeks/Week-2-3_Intermediate/L
     reading = csv.reader(file)
     for line in reading:
         print(line)
-
-    
-
-
-
-

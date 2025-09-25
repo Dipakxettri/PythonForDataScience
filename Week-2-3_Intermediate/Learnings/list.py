@@ -6,6 +6,7 @@ print(heros)
 print(heros[0])# Indexcing 
 
 
+
 # ---- Slicing: ----
 # print(heros[-1])
 # print(heros[:-1])

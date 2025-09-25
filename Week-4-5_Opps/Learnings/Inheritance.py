@@ -147,12 +147,42 @@
 # Method Resolution Order (MRO) Behaviour in the following code.
 # Python looks for show_profession() in:
 # Artist → doesn't exist
-# Writer → found ✅
+# Writer → found 
 # Stops here. Painter is ignored.
 # That’s why even though Painter also defines show_profession(), it’s never called.
 
+# -- 7. Inheriting a Method and Adding New Behavior
+# Problem:
+# Create class Appliance with method turn_on().
+# Create subclass WashingMachine that:
+# Calls turn_on() from parent
+# Adds start_wash_cycle() method --
+# class Appliance:
+#     def turn_on(self):
+#         print("Turning on")
 
+# class WashingMachine(Appliance):
+#     def __init__(self):
+#         Appliance.turn_on(self)
+#     def start_wash_cycle(self):
+#         print("Washing cloths")
 
+# wm = WashingMachine()
+# wm.start_wash_cycle()
 
+# -- 8. Call Parent Class Method from Child
+# Problem:
+# Create a class Computer with method boot().
+# Create a subclass Laptop that overrides boot() but also calls the parent method within the override using super(). --
 
+# class Computer:
+#     def boot(self):
+#         print("Computer booting")
 
+# class Laptop(Computer):
+#     def boot(self):
+#         print("Laptop booting")
+#         super().boot()
+
+# laptop = Laptop()
+# laptop.boot()
