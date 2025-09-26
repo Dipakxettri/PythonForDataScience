@@ -10,7 +10,7 @@
 
 from abc import ABC, abstractmethod
 class Animal(ABC):
-    @abstractmethod # this method should be implimented in its child class otherwise throws an error......
+    @abstractmethod # this method should be implimented in its child class otherwise throws an error....
     def sound(self):
         pass
 
